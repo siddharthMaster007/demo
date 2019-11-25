@@ -33,7 +33,7 @@ if __name__ == "__main__":
     finally:
         try:
             reader.file_close()
-            importer.report()
+            #importer.report()
             print("total = %.5f" % (end-start) )
             print("Thank You !!!!")
         except Exception as e:
